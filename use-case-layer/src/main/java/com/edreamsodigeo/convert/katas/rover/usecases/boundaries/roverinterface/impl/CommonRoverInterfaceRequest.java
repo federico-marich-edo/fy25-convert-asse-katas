@@ -1,13 +1,14 @@
 package com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.impl;
 
+import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverCommand;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverInterfaceRequest;
 
 public class CommonRoverInterfaceRequest implements RoverInterfaceRequest {
 
-    private String roverName;
-    private String command;
+    private final String roverName;
+    private final RoverCommand command;
 
-    public CommonRoverInterfaceRequest(String roverName, String command) {
+    public CommonRoverInterfaceRequest(String roverName, RoverCommand command) {
         this.roverName = roverName;
         this.command = command;
     }
@@ -19,6 +20,6 @@ public class CommonRoverInterfaceRequest implements RoverInterfaceRequest {
 
     @Override
     public String getCommand() {
-        return command;
+        return command.name();
     }
 }

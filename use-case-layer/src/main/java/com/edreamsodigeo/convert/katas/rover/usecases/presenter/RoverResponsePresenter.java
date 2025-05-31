@@ -1,11 +1,11 @@
 package com.edreamsodigeo.convert.katas.rover.usecases.presenter;
 
-import com.edreamsodigeo.convert.katas.rover.model.response.RoverResponse;
+import com.edreamsodigeo.convert.katas.rover.model.response.RoverResponseModel;
 
 public interface RoverResponsePresenter {
 
-    RoverResponse prepareSuccessResponse(RoverResponse roverResponse);
+    RoverResponseModel prepareSuccessResponse(RoverResponseModel roverResponseModel);
 
-    RoverResponse prepareErrorResponse(String errorMessage);
+    RoverResponseModel prepareErrorResponse(String errorMessage);
 
 }

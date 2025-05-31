@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public enum Direction {
 
-    LEFT("L"),
-    RIGHT("R"),
+    EAST("L"),
+    WEST("R"),
     NORTH("N"),
     SOUTH("S");
 

@@ -1,16 +1,10 @@
 package com.edreamsodigeo.convert.katas.rover.entities;
 
-public interface Rover {
+public interface Rover extends Positionable {
 
     void changeDirection(Direction direction);
 
     void changePosition(Coordinate coordinate);
-
-    Coordinate getPosition();
-
-    Integer getHorizontalPosition();
-
-    Integer getVerticalPosition();
 
     Direction getDirection();
 
@@ -19,4 +13,6 @@ public interface Rover {
     String getStatus();
 
     boolean isActive();
+
+    Coordinate getPosition();
 }

@@ -1,6 +1,6 @@
 package com.edreamsodigeo.convert.katas.rover.entities;
 
-import java.util.List;
+import java.util.Map;
 
 public interface PlanetGrid {
 
@@ -12,6 +12,17 @@ public interface PlanetGrid {
 
     String getName();
 
-    List<Rover> getDeployedRovers();
+    Map<Coordinate, Rover> getDeployedRovers();
 
+    Map<Coordinate, Obstacle> getObstacles();
+
+    boolean isObstacle(Coordinate coordinate);
+
+    boolean isRover(Coordinate coordinate);
+
+    void addRover(Rover rover);
+
+    void addObstacle(Obstacle obstacle);
+
+    boolean isEmpty(Coordinate coordinate);
 }

@@ -1,6 +1,6 @@
 package com.edreamsodigeo.convert.katas.rover.usecases.presenter;
 
-import com.edreamsodigeo.convert.katas.rover.model.response.RoverResponse;
+import com.edreamsodigeo.convert.katas.rover.model.response.RoverResponseModel;
 import com.edreamsodigeo.convert.katas.rover.usecases.exception.RoverResponseException;
 import com.edreamsodigeo.convert.katas.rover.usecases.presenter.impl.RoverResponseFormatter;
 import org.testng.annotations.BeforeMethod;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class RoverResponseFormatterTest {
+public class RoverResponseModelFormatterTest {
 
     private RoverResponseFormatter roverResponseFormatter;
 
@@ -20,10 +20,10 @@ public class RoverResponseFormatterTest {
     @Test
     public void testPrepareSuccessResponse() {
         // Given
-        RoverResponse response = new RoverResponse("Rover1", "3:0:N", "MMM", "", true);
+        RoverResponseModel response = new RoverResponseModel("Rover1", "3:0:N", "MMM", "", true);
 
         // When
-        RoverResponse formattedResponse = roverResponseFormatter.prepareSuccessResponse(response);
+        RoverResponseModel formattedResponse = roverResponseFormatter.prepareSuccessResponse(response);
 
         // Then
         assertEquals(formattedResponse.getLastCommand(), "Command: MMM");

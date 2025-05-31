@@ -10,6 +10,6 @@ public interface RoverInterfaceResponse {
 
     int getVerticalPosition();
 
-    String getStatus();
+    RoverStatus getStatus();
 
 }

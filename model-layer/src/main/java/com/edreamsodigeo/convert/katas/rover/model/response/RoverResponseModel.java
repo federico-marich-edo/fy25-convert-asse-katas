@@ -1,6 +1,6 @@
 package com.edreamsodigeo.convert.katas.rover.model.response;
 
-public class RoverResponse {
+public class RoverResponseModel {
 
     private String name;
     private String location;
@@ -8,7 +8,7 @@ public class RoverResponse {
     private String errorMessage;
     private boolean success;
 
-    public RoverResponse(String name, String location, String lastCommand, String errorMessage, boolean success) {
+    public RoverResponseModel(String name, String location, String lastCommand, String errorMessage, boolean success) {
         this.name = name;
         this.location = location;
         this.lastCommand = lastCommand;

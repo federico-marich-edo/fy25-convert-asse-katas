@@ -70,4 +70,5 @@ public class MarsRover implements Rover {
     public boolean isActive() {
         return active;
     }
+
 }
