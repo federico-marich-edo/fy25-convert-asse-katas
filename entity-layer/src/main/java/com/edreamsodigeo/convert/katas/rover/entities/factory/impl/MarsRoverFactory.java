@@ -1,9 +1,10 @@
-package com.edreamsodigeo.convert.katas.rover.entities.impl;
+package com.edreamsodigeo.convert.katas.rover.entities.factory.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.Coordinate;
 import com.edreamsodigeo.convert.katas.rover.entities.Direction;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.CoordinateFactory;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.RoverFactory;
+import com.edreamsodigeo.convert.katas.rover.entities.impl.MarsRover;
 
 public class MarsRoverFactory implements RoverFactory {
 

@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.edreamsodigeo.convert.katas.rover</groupId>
-            <artifactId>model-layer</artifactId>
+            <artifactId>api-models-layer</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

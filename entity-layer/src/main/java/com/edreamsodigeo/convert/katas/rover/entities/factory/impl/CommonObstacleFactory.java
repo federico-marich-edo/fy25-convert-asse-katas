@@ -1,9 +1,10 @@
-package com.edreamsodigeo.convert.katas.rover.entities.impl;
+package com.edreamsodigeo.convert.katas.rover.entities.factory.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.Obstacle;
 import com.edreamsodigeo.convert.katas.rover.entities.ObstacleType;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.CoordinateFactory;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.ObstacleFactory;
+import com.edreamsodigeo.convert.katas.rover.entities.impl.CommonObstacle;
 
 public class CommonObstacleFactory implements ObstacleFactory {
 

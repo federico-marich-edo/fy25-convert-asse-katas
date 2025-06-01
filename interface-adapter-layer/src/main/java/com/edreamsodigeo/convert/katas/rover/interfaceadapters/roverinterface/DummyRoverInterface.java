@@ -5,7 +5,7 @@ import com.edreamsodigeo.convert.katas.rover.entities.Direction;
 import com.edreamsodigeo.convert.katas.rover.entities.PlanetGrid;
 import com.edreamsodigeo.convert.katas.rover.entities.Rover;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.CoordinateFactory;
-import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.exception.ObstacleDetectedException;
+import com.edreamsodigeo.convert.katas.rover.usecases.exception.ObstacleDetectedException;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverStatus;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.impl.CommonRoverInterfaceResponse;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.RoverInterfaceGateway;

@@ -1,11 +1,11 @@
-package com.edreamsodigeo.convert.katas.rover.entities.impl;
+package com.edreamsodigeo.convert.katas.rover.entities.factory.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.Coordinate;
 import com.edreamsodigeo.convert.katas.rover.entities.Obstacle;
 import com.edreamsodigeo.convert.katas.rover.entities.Rover;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.PlanetGridFactory;
+import com.edreamsodigeo.convert.katas.rover.entities.impl.StandardPlanetGrid;
 
-import java.util.List;
 import java.util.Map;
 
 public class StandardPlanedGridFactory implements PlanetGridFactory {

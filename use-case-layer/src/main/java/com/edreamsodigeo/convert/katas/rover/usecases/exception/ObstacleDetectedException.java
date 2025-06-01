@@ -1,4 +1,4 @@
-package com.edreamsodigeo.convert.katas.rover.usecases.boundaries.exception;
+package com.edreamsodigeo.convert.katas.rover.usecases.exception;
 
 public class ObstacleDetectedException extends RuntimeException {
     private static final long serialVersionUID = 1L;

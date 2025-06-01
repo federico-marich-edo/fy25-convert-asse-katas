@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>model-layer</artifactId>
+    <artifactId>api-models-layer</artifactId>
     <packaging>jar</packaging>
-    <name>Rover Kata - Model Layer</name>
+    <name>Rover Kata - API Models Layer</name>
 
     <parent>
         <groupId>com.edreamsodigeo.convert.katas.rover</groupId>

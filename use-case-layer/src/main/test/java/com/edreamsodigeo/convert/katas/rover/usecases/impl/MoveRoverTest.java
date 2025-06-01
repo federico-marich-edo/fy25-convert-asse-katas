@@ -14,6 +14,7 @@ import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.RoverRegisterDS
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.RoverStatusDSGateway;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.PlanetGridResponseDS;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.RoverResponseDS;
+import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.impl.MoveRover;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverCommandProcessorFactory;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverInterfaceRequest;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverInterfaceResponse;

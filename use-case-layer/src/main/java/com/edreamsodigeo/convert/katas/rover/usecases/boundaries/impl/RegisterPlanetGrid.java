@@ -1,4 +1,4 @@
-package com.edreamsodigeo.convert.katas.rover.usecases.impl;
+package com.edreamsodigeo.convert.katas.rover.usecases.boundaries.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.PlanetGrid;
 import com.edreamsodigeo.convert.katas.rover.entities.factory.PlanetGridFactory;

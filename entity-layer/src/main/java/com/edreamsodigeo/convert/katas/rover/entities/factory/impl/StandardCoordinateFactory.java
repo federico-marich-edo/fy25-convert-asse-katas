@@ -1,6 +1,7 @@
-package com.edreamsodigeo.convert.katas.rover.entities.impl;
+package com.edreamsodigeo.convert.katas.rover.entities.factory.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.factory.CoordinateFactory;
+import com.edreamsodigeo.convert.katas.rover.entities.impl.StandardCoordinate;
 
 public class StandardCoordinateFactory implements CoordinateFactory {
     @Override

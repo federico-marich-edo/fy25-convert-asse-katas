@@ -1,9 +1,11 @@
 # fy25-convert-asse-katas
-Code catas used during the mentorship program to prepare the ASSE promotion in the Convert area
+Code katas used during the mentorship program to prepare the ASSE promotion in the Convert area
 
 # Rover Kata Implementation
 
-## Description
+Implementation using clean architecture, based on this article: https://www.baeldung.com/spring-boot-clean-architecture
+
+## Description of the problem to be solved
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 

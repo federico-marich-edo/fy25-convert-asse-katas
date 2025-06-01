@@ -1,4 +1,4 @@
-package com.edreamsodigeo.convert.katas.rover.usecases.impl;
+package com.edreamsodigeo.convert.katas.rover.usecases.boundaries.impl;
 
 import com.edreamsodigeo.convert.katas.rover.entities.Coordinate;
 import com.edreamsodigeo.convert.katas.rover.entities.Direction;
@@ -21,7 +21,7 @@ import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.Plan
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.RoverRequestDS;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.RoverResponseDS;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.impl.RoverRequestDSImpl;
-import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.exception.ObstacleDetectedException;
+import com.edreamsodigeo.convert.katas.rover.usecases.exception.ObstacleDetectedException;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverCommandProcessorFactory;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverInterfaceRequest;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.roverinterface.RoverInterfaceResponse;

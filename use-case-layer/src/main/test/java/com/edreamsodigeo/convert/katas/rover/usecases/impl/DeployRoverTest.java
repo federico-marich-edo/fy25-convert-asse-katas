@@ -12,6 +12,7 @@ import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.PlanetGridRegis
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.RoverRegisterDSGateway;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.PlanetGridResponseDS;
 import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.dataaccess.RoverRequestDS;
+import com.edreamsodigeo.convert.katas.rover.usecases.boundaries.impl.DeployRover;
 import com.edreamsodigeo.convert.katas.rover.usecases.presenter.RoverResponsePresenter;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
